@@ -19,7 +19,13 @@ Sample Input and Output2:
 35000
 52.63 10.53 36.84 '''
 
+s=int(input ())
+b=int(input ())
+e=int(input ())
+ti=s+b+e
+ps=(s/ti)*100
+pb=(b/ti)*100
+pe=(e/ti)*100
+print("%.2f"%ps,"%.2f"%pb,"%.2f"%pe)
 
-cAge=int(input())
-deviAge =((cAge+3)*4)-3
-print(deviAge)
+
